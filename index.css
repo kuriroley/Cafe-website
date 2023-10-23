@@ -3,7 +3,7 @@
 }
 body{
     margin: 0;
-    background-color: rgb(210, 105, 30);
+    background-color: rgb(255, 204, 167);
     
 }
 header{
@@ -35,7 +35,7 @@ nav{
 }
 
 .slideshow-container{
-    max-width: 1000px;
+    max-width: 1000%;
     position: relative;
     margin: auto;
 }
@@ -61,5 +61,40 @@ nav{
     border-radius: 3px 0 0 3px;
 }
 .prev:hover, .next:hover{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.39);
+}
+.text{
+    font-family: fantasy;
+    font-style: italic;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.373);
+    font-size: 20px;
+    padding: 8px 12px;
+    bottom: 8px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from{opacity: .4;}
+    to {opacity: 1;}
+}
+.footer{
+    color: black;
+    text-align: center;
 }
