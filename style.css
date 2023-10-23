@@ -1,22 +1,36 @@
+html{
+    overscroll-behavior: none;
+}
 body{
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flibreshot.com%2Fwp-content%2Fuploads%2F2016%2F03%2Fcoffee-beans.jpg&f=1&nofb=1&ipt=46dc766a7b4b79f09fe0088d3ae7cedf43ad5ed96375ac29ad78686e6722b9bf&ipo=images);
-    background-size: 100%;
+    background-size: 110%;
+    
 }   
 h1,p,h2{
     text-align: center;
 }
+hr{
+    background-color: rgba(65, 20, 20, 0.68);
+    height: 5px;
+    border: none;
+}
+
 .menu{
-    background-color: burlywood;
+    background-color: rgba(223, 173, 107, 0.791);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 5px;
 }
 .item p{
     display: inline-block;
-
+    margin-top:5px;
+    margin-bottom:5px;
 }
 
-.flavor{
+.flavor,.dessert{
     text-align: left;
     width: 75%;
 }
