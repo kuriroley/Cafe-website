@@ -6,6 +6,9 @@ body{
     background-size: 110%;
     
 }   
+h1{
+    margin-top: 0;
+}
 h1,p,h2{
     text-align: center;
 }
@@ -13,6 +16,9 @@ hr{
     background-color: rgba(65, 20, 20, 0.68);
     height: 5px;
     border: none;
+}
+.bottom{
+    margin-top: 25px;
 }
 
 .menu{
@@ -37,4 +43,20 @@ hr{
 .price{
     text-align: right;
     width: 25%;
+}
+footer{
+    font-size: 14px;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer img{
+    height: 40px;
+    width: 40px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    
 }
