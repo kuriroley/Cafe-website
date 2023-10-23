@@ -17,7 +17,9 @@ hr{
     height: 5px;
     border: none;
 }
-
+header{
+    background-color: beige;
+}
 .bottom{
     margin-top: 25px;
 }

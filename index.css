@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-text{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    width: 30%;
+}
