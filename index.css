@@ -1,10 +1,9 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 body{
-    margin: 0;
-    background-color: rgb(255, 204, 167);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: burlywood;
 }
 header{
     display: flex;
@@ -15,8 +14,15 @@ header{
     padding: 5px;
 }
 .logo-text{
-    font-family: 'Arial';
+    font-family: Tangerine;
     text-align: center;
+    font-size: 50px;
+    opacity: 0.9;
+    text-shadow: 6px 6px 6px #aaa;
+}
+.middle-text{
+    font-family: Tangerine;
+    font-size: 40px;
 }
 a{
     text-decoration: none;
@@ -33,6 +39,9 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 30%;
+    font-family: Tangerine;
+    font-size: 30px;
+    text-shadow: 6px 6px 6px #aaa;
 }
 
 .slideshow-container{
@@ -97,5 +106,10 @@ nav{
 }
 .footer{
     color: black;
+    background-color: beige;
     text-align: center;
+}
+.footer h3{
+    font-size: 18px;
+    font-family: 'Times New Roman';
 }
