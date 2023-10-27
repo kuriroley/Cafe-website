@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work With Us</title>
+    <link rel="stylesheet" href="work.css">
 </head>
 <body>
+    <header>
+        <h1 class="logo">Kuma Café</h1>
+        <nav class="navigation">
+            <a href="/index.html">Main Site</a>
+            <a href="/Menu/menu.html">Menu</a>
+        </nav>
+    </header>
+    <main>
+        <section class="invitation">
+           <h1>Want to work with us?</h1>
+           <h2>Fill the following form!</h2>
+        </section>
+            <!--a fake site for sending the form data-->
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Enter your personal data</legend>
+                <label for="first-name">Enter your first name: <input type="text" name="first-name" placeholder="First name"></label>
+                <label for="last-name">Enter your last name: <input type="text" name="last-name" placeholder="Last name"></label>
+                <label for="email">Enter your email address: <input type="email" name="email" placeholder="email@kumacafe.jp"></label>
+                <label for="phone-number">Enter your phone number <input type="number" name="phone-number" min="8" max="12" placeholder="+81916210990"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Upload your resume</legend>
+                <label for="resume"> Upload your resume: <input type="file" name="resume" required></label>
+            </fieldset>
+                <input type="submit" value="Submit">
+        </form>
     
+    </main>
 </body>
 </html>
